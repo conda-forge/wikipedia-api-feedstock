@@ -1,11 +1,11 @@
-About wikipedia-api
-===================
+About wikipedia-api-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wikipedia-api-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/martin-majlis/Wikipedia-API
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wikipedia-api-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python Wrapper for Wikipedia
 
