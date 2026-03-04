@@ -1,5 +1,5 @@
 {% set name = "wikipedia-api" %}
-{% set version = "0.9.0" %}
+{% set version = "0.10.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 6aabd1f9fe34f594f4d36f5af67e468b0a50d713aa9a1d102b4d996bc76dd58e
+  sha256: 018827f889eb651886e7f4ed4f05421c850a52476e1cb5613471d09f8582f011
 
 build:
   number: 0
@@ -21,6 +21,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
+    - click
     - python >={{ python_min }}
     - requests
 
